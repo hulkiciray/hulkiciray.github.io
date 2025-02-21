@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Hulki Ciray"
-  pronouns         : # example: "she/her"  
+  pronouns         : "he"# example: "she/her"
   bio              : "NLP Researcher"
   location         : "Istanbul"
   employer         : "Koc University"
@@ -46,7 +46,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "hulkiciray"
-  kaggle           : # Username  
+  kaggle           : "hulkiciray"
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
