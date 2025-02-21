@@ -27,8 +27,8 @@ author:
   pronouns         : "he"# example: "she/her"
   bio              : "NLP Researcher"
   location         : "Istanbul"
-  employer         : "Koc University"
-  uri              : # URL
+  employer         : "Koc University - GGLab"
+  uri              : "https://gglab-ku.github.io"
   email            : "hulkiciray@gmail.com"
 
   # Academic websites
