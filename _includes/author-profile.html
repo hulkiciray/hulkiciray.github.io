@@ -155,7 +155,10 @@
       {% endif %}
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
-      {% endif %}      
+      {% endif %}
+      {% if author.huggingface %}
+      <li><a href="https://www.huggingface.co/{{ author.huggingface }}"><i class="fab fa-fw fa-huggingface icon-pad-right" aria-hidden="true"></i>Huggingface</a></li>
+      {% endif %}
     </ul>
   </div>
 </div>
