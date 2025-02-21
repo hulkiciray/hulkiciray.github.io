@@ -22,9 +22,9 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "website_profile_pic.JPG" #"profile.png"
   name             : "Hulki Ciray"
-  pronouns         : "he"# example: "she/her"
+  pronouns         : # example: "she/her"
   bio              : "NLP Researcher"
   location         : "Istanbul"
   employer         : "Koc University - GGLab"
