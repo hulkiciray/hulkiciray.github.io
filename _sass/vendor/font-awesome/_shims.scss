@@ -1507,6 +1507,10 @@
   font-family: 'Font Awesome 6 Brands';
   font-weight: 400;
 }
+.#{$fa-css-prefix}.#{$fa-css-prefix}-huggingface {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
 .#{$fa-css-prefix}.#{$fa-css-prefix}-thermometer-4:before { content: unquote("\"#{ $fa-var-temperature-full }\""); }
 .#{$fa-css-prefix}.#{$fa-css-prefix}-thermometer:before { content: unquote("\"#{ $fa-var-temperature-full }\""); }
 .#{$fa-css-prefix}.#{$fa-css-prefix}-thermometer-3:before { content: unquote("\"#{ $fa-var-temperature-three-quarters }\""); }
