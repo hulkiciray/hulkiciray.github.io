@@ -1,19 +1,25 @@
----
-layout: archive
-title: "RESUME"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
----
+[//]: # (---)
+
+[//]: # (layout: archive)
+
+[//]: # (title: "")
+
+[//]: # (permalink: /cv/)
+
+[//]: # (author_profile: true)
+
+[//]: # (redirect_from:)
+
+[//]: # (  - /resume)
+
+[//]: # (---)
 
 {% include base_path %}
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.Sc. in Jekyll, GitHub University, 2025 (expected)
+* B.S. in Electrical Engineering, Istanbul Technical University, 2021
 
 Work experience
 ======
