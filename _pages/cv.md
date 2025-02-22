@@ -18,53 +18,38 @@
 
 Education
 ======
-* M.Sc. in Jekyll, GitHub University, 2025 (expected)
-* B.S. in Electrical Engineering, Istanbul Technical University, 2021
+* M.Sc. in Computer Science and Engineering, Koc University, 2025 (expected)
+  
+  *Courses*
+  * *Machine Learning*
+  * *Computer Vision*
+  * *Data Base Management Systems*
+  * *Random Processes*
+  * *Digital Image and Video Processing*
+  * *Biomedical Signal Processing*
+  * *Data Structures and Algorithms*
+  * *Medical Imaging*
+  * *NLP*
+* B.S. in Electrical Engineering, Istanbul Technical University (GPA: 3.02), 2021
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **GGLab, NLP Researcher - Oct 2023-Present**
+  * Long context LLMs (SSMs, Mamba)
+  * Federated Learning (Flower)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Hepsiburada, Data Scientist - Nov 2021-Jan 2025** 
+  * Work with various business units to understand business objectives, data requirements and  translate them into predictive models and analytical solutions
+  * Analyze data generated within the Hepsiburada ecosystem or from external resources, both  structured and unstructured, to discover insights and foresight that will fuel growth strategies in  commercial operations or product development
+  * Building segmentation, churn propensity and demand forecasting models
+  * Conduct statistical analysis and programming using various open-source coding languages and statistical software
+  * Built a discount segmentation model using Light-GBM algorithm to predict customers’ discount  sensitivity for discount that is offered and designed the pipeline for deployment on Airflow.
+  * Apply suitable machine learning algorithms for the specific business problems of a company that has over 57 millions of customers
+  * Measure the results continuously and improve the algorithms when needed
+  * Machine Learning, Python, SQL, Big Query, Git, Looker Studio, Google Sheets, Apache Airflow
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+* **AI Software Intern, Aug 2021 - Sep 2021**
+  * Object tracking
+  * JIT
