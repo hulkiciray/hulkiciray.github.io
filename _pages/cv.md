@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* M.Sc. in Computer Science and Engineering, Koc University, 2025 (expected)
+* **M.Sc. in Computer Science and Engineering, Koc University, 2025 (expected)**
   
   *Courses*
   * *Computer Vision with Deep Learning*
@@ -23,7 +23,7 @@ Education
   * *Digital Image and Video Processing*
   * *Biomedical Signal Processing*
   * *Medical Image Analysis*
-* B.S. in Electrical Engineering, Istanbul Technical University (GPA: 3.02), 2021
+* **B.S. in Electrical Engineering, Istanbul Technical University (GPA: 3.02), 2021**
 
   Graduation Project: *Object Detection for Autonomous Driving with Faster-RCNN*
 
