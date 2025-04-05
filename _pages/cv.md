@@ -14,20 +14,22 @@ Education
 * M.Sc. in Computer Science and Engineering, Koc University, 2025 (expected)
   
   *Courses*
+  * *Computer Vision with Deep Learning*
   * *Machine Learning*
-  * *Computer Vision*
   * *Data Base Management Systems*
+  * *Natural Language Processing*
   * *Random Processes*
+  * *Data Structures and Algorithms*
   * *Digital Image and Video Processing*
   * *Biomedical Signal Processing*
-  * *Data Structures and Algorithms*
-  * *Medical Imaging*
-  * *NLP*
+  * *Medical Image Analysis*
 * B.S. in Electrical Engineering, Istanbul Technical University (GPA: 3.02), 2021
+
+  Graduation Project: *Object Detection for Autonomous Driving with Faster-RCNN*
 
 Work experience
 ======
-* **GGLab, NLP Researcher - Oct 2023-Present**
+* **Koc University NLP Lab/Tubitak, AI Researcher - Oct 2023-Present**
   * Long context LLMs (SSMs, Mamba)
   * Federated Learning (Flower)
 
