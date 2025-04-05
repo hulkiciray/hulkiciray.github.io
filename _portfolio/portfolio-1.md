@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Large Language Models from Scratch Tutorial Repository"
+excerpt: "General overview 1<br/><img src='/images/LLM-overview.png'>"
 collection: portfolio
 ---
 
