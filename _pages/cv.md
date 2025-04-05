@@ -45,6 +45,6 @@ Work experience
   * Machine Learning, Python, SQL, Big Query, Git, Looker Studio, Google Sheets, Apache Airflow
 
 
-* **AI Software Intern, Aug 2021 - Sep 2021**
+* **Baykar Defense, AI Software Intern, Aug 2021 - Sep 2021**
   * Object tracking
   * JIT
