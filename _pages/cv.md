@@ -13,19 +13,29 @@ Education
 ======
 * **M.Sc. in Computer Science and Engineering, Koc University, 2025 (expected)**
   
-  *Courses*
-  * *Computer Vision with Deep Learning*
-  * *Machine Learning*
-  * *Data Base Management Systems*
-  * *Natural Language Processing*
-  * *Random Processes*
-  * *Data Structures and Algorithms*
-  * *Digital Image and Video Processing*
-  * *Biomedical Signal Processing*
-  * *Medical Image Analysis*
+  **Courses**
+  <div style="display: flex; justify-content: space-between;">
+    <div>
+  
+    - Computer Vision with Deep Learning  
+    - Machine Learning
+    - Data Base Management Systems
+    - Natural Language Processing
+    - Random Processes
+    </div>
+  <div>
+
+    - Data Structures and Algorithms  
+    - Digital Image and Video Processing
+    - Biomedical Signal Processing
+    - Medical Image Analysis
+    </div>
+  </div>
+  
+
 * **B.S. in Electrical Engineering, Istanbul Technical University (GPA: 3.02), 2021**
 
-  Graduation Project: *Object Detection for Autonomous Driving with Faster-RCNN*
+  **Graduation Project:** *Object Detection for Autonomous Driving with Faster-RCNN*
 
 Work experience
 ======
