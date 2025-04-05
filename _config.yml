@@ -28,7 +28,7 @@ author:
   bio              : "NLP Researcher"
   location         : "Istanbul, Turkey"
   employer         : "Koc University - GGLab"
-  uri              : "https://gglab-ku.github.io"
+  uri              : #"https://gglab-ku.github.io"
   email            : "hulkiciray@gmail.com"
 
   # Academic websites
