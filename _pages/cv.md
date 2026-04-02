@@ -9,44 +9,72 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* **M.Sc. in Computer Science and Engineering, Koc University, 2025 (expected)**
-  
-  **Courses**
-    - Computer Vision with Deep Learning  
-    - Machine Learning
-    - Data Base Management Systems
-    - Natural Language Processing
-    - Random Processes
-    - Data Structures and Algorithms  
-    - Digital Image and Video Processing
-    - Biomedical Signal Processing
-    - Medical Image Analysis
-  
+# Education
 
-* **B.S. in Electrical Engineering, Istanbul Technical University (GPA: 3.02), 2021**
+**Koç University** | Istanbul, Turkey  
+*Master of Science in Computer Science and Engineering* | 2023 – 2026  
+- Thesis: Domain Adaptation of LLMs in Decentralized Settings  
+- Skills: HuggingFace Transformers, In-context Learning, Fine-tuning, Instruction-tuning, Inference-tuning, Model Alignment, Inference Optimizations (vLLM), RAG, AI Agents
 
-  **Graduation Project:** *Object Detection for Autonomous Driving with Faster-RCNN*
+**Istanbul Technical University** | Istanbul, Turkey  
+*Bachelor of Science in Electrical Engineering* | 2016 – 2021  
+- CGPA: 3.02  
+- Graduation Project: Object Detection with Deep Learning for Autonomous Cars
 
-Work experience
-======
-* **Koc University NLP Lab/Tubitak, AI Researcher - Oct 2023-Present**
-  * Long context LLMs (SSMs, Mamba)
-  * Federated Learning (Flower)
+**Izmir Ataturk High School** | Izmir, Turkey  
+*Math-Science Student* | 2011 – 2015
 
+---
 
-* **Hepsiburada, Data Scientist - Nov 2021-Jan 2025** 
-  * Work with various business units to understand business objectives, data requirements and  translate them into predictive models and analytical solutions
-  * Analyze data generated within the Hepsiburada ecosystem or from external resources, both  structured and unstructured, to discover insights and foresight that will fuel growth strategies in  commercial operations or product development
-  * Building segmentation, churn propensity and demand forecasting models
-  * Conduct statistical analysis and programming using various open-source coding languages and statistical software
-  * Built a discount segmentation model using Light-GBM algorithm to predict customers’ discount  sensitivity for discount that is offered and designed the pipeline for deployment on Airflow.
-  * Apply suitable machine learning algorithms for the specific business problems of a company that has over 57 millions of customers
-  * Measure the results continuously and improve the algorithms when needed
-  * Machine Learning, Python, SQL, Big Query, Git, Looker Studio, Google Sheets, Apache Airflow
+# Research Experience
 
+**AI Researcher** | TUBITAK – Koç University | Istanbul, Turkey  
+*Feb 2025 – Present*  
+- NLP, Computer Vision, Multimodality, Efficient Model Training, Multilingual NLP, Trustworthy AI, Federated Learning, Domain Adaptation, Long Context LLMs, State Space Models (SSMs), Model Compression (e.g., Quantization, Distillation, Pruning)
 
-* **Baykar Defense, AI Software Intern, Aug 2021 - Sep 2021**
-  * Object tracking
-  * JIT
+---
+
+# Teaching Experience
+
+**Teaching Assistant** | FAU Erlangen-Nürnberg | Erlangen, Bavaria, Germany  
+*Jan 2026 – Present*  
+- 29.1 Natural Language Processing
+
+**Teaching Assistant** | Koç University | Istanbul, Turkey  
+*Jan 2026 – Present*  
+- COMP 125 Introduction to Programming with Python
+
+---
+
+# Work Experience
+
+**Data Scientist** | Hepsiburada, Research and Development Department | Istanbul, Turkey  
+*Nov 2021 – Jan 2025*  
+- Built segmentation, churn propensity, LTV prediction, and demand forecasting models with suitable machine learning algorithms  
+- Conducted statistical analysis and programming using various open-source coding languages and statistical software  
+- Built a discount segmentation model using Light-GBM algorithm to predict customers' discount sensitivity and designed the pipeline for deployment on Airflow  
+- Applied suitable machine learning algorithms for specific business problems for a company with over 57 million customers  
+- **Skills:** Python, SQL, Big Query, Git, Looker Studio, Google Sheets, Apache Airflow
+
+**Artificial Intelligence Software Intern** | Baykar Defense, Software Engineering Department | Istanbul, Turkey  
+*Aug 2021 – Sep 2021*  
+- Computer Vision, Deep Learning, PyTorch, Object Tracking
+
+**Engineering Intern** | Enerjisa Enerji Üretim A.Ş. | Istanbul, Turkey  
+*June 2019 – July 2019*  
+
+---
+
+# Skills, Languages & Test Scores
+
+**Skills:** Python, PyTorch, Flower, Scikit-learn, Pandas, NumPy, Matplotlib, SQL, Git, Looker Studio, GCP (Google Cloud Platform), BigQuery, MySQL
+
+**Languages:** Turkish (Native), English (Advanced)
+
+**Test Scores:** TOEFL iBT: 88 | GRE Quantitative: 164
+
+---
+
+# Selected Publications & Projects
+
+*(Add any publications or notable projects here)*
