@@ -22,8 +22,7 @@ redirect_from:
 - Graduation Project: Object Detection with Deep Learning for Autonomous Cars
 
 **Izmir Ataturk High School** | Izmir, Turkey  
-*Math-Science Student* | 2011 – 2015
-
+*Math-Science Student* 2011 – 2015
 ---
 
 # Research Experience
@@ -74,7 +73,3 @@ redirect_from:
 **Test Scores:** TOEFL iBT: 88 | GRE Quantitative: 164
 
 ---
-
-# Selected Publications & Projects
-
-*(Add any publications or notable projects here)*
