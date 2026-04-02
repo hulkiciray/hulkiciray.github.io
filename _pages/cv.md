@@ -23,6 +23,7 @@ redirect_from:
 
 **Izmir Ataturk High School** | Izmir, Turkey  
 *Math-Science Student* 2011 – 2015
+
 ---
 
 # Research Experience
