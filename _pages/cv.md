@@ -70,6 +70,6 @@ redirect_from:
 
 **Languages:** Turkish (Native), English (Advanced)
 
-**Test Scores:** TOEFL iBT: 88 | GRE Quantitative: 164
+**Test Scores:** TOEFL iBT: 88, GRE Quantitative: 164
 
 ---
