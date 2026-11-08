@@ -41,6 +41,11 @@
 .theme-toggle:hover { transform: scale(1.08); }
 .theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
+/* Below this width a fixed button would cover the text column while scrolling */
+@media (max-width: 900px) {
+  .theme-toggle { position: absolute; }
+}
+
 * { box-sizing: border-box; }
 
 html { -webkit-text-size-adjust: 100%; }
@@ -200,16 +205,6 @@ h3 a:hover { color: var(--accent); }
   color: var(--muted);
 }
 
-.embed {
-  display: block;
-  width: 100%;
-  height: 34rem;
-  margin-top: 0.75rem;
-  border: 1px solid var(--rule);
-  border-radius: 8px;
-  background: var(--card);
-}
-
 /* Timeline (experience, education) */
 
 .timeline {
@@ -261,6 +256,4 @@ footer {
   h1 { font-size: 1.8rem; }
   .timeline li { grid-template-columns: 1fr; gap: 0; }
   .when { padding-top: 0; }
-  .feature { padding: 1.2rem 1.2rem 0.3rem; }
-  .embed { height: 26rem; }
-}
+  .feature { padding: 1.2rem 1.2rem 0.3rem; }}
