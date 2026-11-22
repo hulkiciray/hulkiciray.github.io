@@ -1,4 +1,4 @@
-// Hero dot grid, the Erlangen / Istanbul clock, and the active-section marker in the top bar.
+// Hero dot grid, the Istanbul clock, and the active-section marker in the top bar.
 (function () {
   var root = document.documentElement;
   var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -9,32 +9,12 @@
     return new Intl.DateTimeFormat('en-GB', { timeZone: tz, hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(date);
   }
 
-  // Hours ahead of UTC for a time zone at a given moment.
-  function utcOffset(tz, date) {
-    var parts = new Intl.DateTimeFormat('en-US', {
-      timeZone: tz, hourCycle: 'h23',
-      year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric'
-    }).formatToParts(date);
-    function get(type) {
-      for (var i = 0; i < parts.length; i++) if (parts[i].type === type) return +parts[i].value;
-      return 0;
-    }
-    var asUtc = Date.UTC(get('year'), get('month') - 1, get('day'), get('hour'), get('minute'));
-    var minute = Math.floor(date.getTime() / 60000) * 60000;
-    return Math.round((asUtc - minute) / 900000) / 4;
-  }
-
   function startClock() {
     var el = document.getElementById('clock');
     if (!el || !window.Intl) return;
     function tick() {
       try {
-        var now = new Date();
-        var delta = utcOffset('Europe/Istanbul', now) - utcOffset('Europe/Berlin', now);
-        var sign = delta < 0 ? '−' : '+';
-        el.textContent = 'ERL ' + wallClock('Europe/Berlin', now) +
-          ' · IST ' + wallClock('Europe/Istanbul', now) +
-          ' · Δ ' + sign + Math.abs(delta) + 'H';
+        el.textContent = 'Istanbul ' + wallClock('Europe/Istanbul', new Date());
       } catch (e) { /* time zone data unavailable: keep the placeholder */ }
     }
     tick();
@@ -44,7 +24,7 @@
   /* ---------- Active section in the top bar ---------- */
 
   function startScrollSpy() {
-    var links = document.querySelectorAll('.nav a');
+    var links = document.querySelectorAll('.nav a[href^="#"]');
     if (!links.length || !('IntersectionObserver' in window)) return;
     var byId = {};
     for (var i = 0; i < links.length; i++) byId[links[i].getAttribute('href').slice(1)] = links[i];
