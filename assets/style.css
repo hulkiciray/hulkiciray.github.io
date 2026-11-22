@@ -68,8 +68,9 @@ em {
   letter-spacing: 0;
 }
 
+/* Wide enough that on large monitors the name and photo reach toward the edges instead of sitting mid-screen */
 .wrap {
-  max-width: 1240px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 0 clamp(16px, 3.2vw, 40px);
 }
@@ -218,14 +219,16 @@ em {
 /* Name on the left, photo on the right whose edges fade into the page */
 .hero-title {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  /* A fixed-width photo column, so no browser can size it from the image's own pixels */
+  grid-template-columns: minmax(0, 1fr) clamp(220px, 30vw, 520px);
   align-items: center;
   gap: 1rem;
 }
 
 .hero-photo {
   display: block;
-  width: clamp(220px, 30vw, 440px);
+  justify-self: end;
+  width: 100%;
   height: auto;
   aspect-ratio: 1;
   margin: -3rem 0;
@@ -244,7 +247,7 @@ em {
   position: relative;
   z-index: 1;
   margin: 0;
-  font-size: clamp(3.3rem, 10.5vw, 9.5rem);
+  font-size: clamp(3.3rem, 10.5vw, 11rem);
   font-weight: 600;
   line-height: 0.92;
   letter-spacing: -0.045em;
