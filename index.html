@@ -4,188 +4,359 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Hulki Çıray · AI Researcher</title>
-  <meta name="description" content="Hulki Çıray, AI researcher. Vision-language models, parameter-efficient fine-tuning, model merging and federated learning for LLMs.">
+  <meta name="description" content="Hulki Çıray, AI researcher. Selective fine-tuning, model merging and federated learning for large language and vision-language models.">
   <meta property="og:title" content="Hulki Çıray · AI Researcher">
-  <meta property="og:description" content="Vision-language models, parameter-efficient fine-tuning, model merging and federated learning for LLMs.">
+  <meta property="og:description" content="Selective fine-tuning, model merging and federated learning for large language and vision-language models.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://hulkiciray.github.io/">
   <meta property="og:image" content="https://hulkiciray.github.io/assets/profile.jpg">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="assets/style.css">
   <script src="assets/theme.js"></script>
+  <script src="assets/site.js" defer></script>
 </head>
 <body>
-  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">💡</button>
+
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#top" aria-label="Hulki Çıray, back to top">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i></span>
+        <span class="brand-text"><strong>Hulki Çıray</strong><small>AI Researcher</small></span>
+      </a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#now"><span>00</span> / Now</a>
+        <a href="#research"><span>01</span> / Research</a>
+        <a href="#experience"><span>02</span> / Experience</a>
+        <a href="#projects"><span>03</span> / Projects</a>
+        <a href="#education"><span>04</span> / Education</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">💡</button>
+    </div>
+  </header>
+
   <main>
 
-    <header class="intro">
-      <img class="avatar" src="assets/profile.jpg" alt="Photo of Hulki Çıray" width="128" height="128">
-      <div>
-        <h1>Hulki Çıray</h1>
-        <p class="role">AI Researcher · MSc in Computer Science and Engineering, Koç University</p>
-        <nav class="links" aria-label="Contact and profiles">
-          <a href="mailto:huciray23@ku.edu.tr">Email</a>
-          <a href="assets/Hulki_Ciray_CV.pdf">CV</a>
-          <a href="https://github.com/hulkiciray">GitHub</a>
-          <a href="https://www.linkedin.com/in/hulkiciray/">LinkedIn</a>
-        </nav>
+    <section class="hero" id="top">
+      <canvas class="field" aria-hidden="true"></canvas>
+      <div class="wrap hero-inner">
+        <div class="hero-meta mono">
+          <span>Personal site · Erlangen 2026</span>
+          <span class="clock" id="clock">ERL --:-- · IST --:--</span>
+        </div>
+
+        <h1 class="name">Hulki Çıray<span class="dot">.</span></h1>
+
+        <div class="hero-foot">
+          <div>
+            <p class="label mono">— Currently</p>
+            <p class="lede">
+              Visiting researcher at <em>FAU Erlangen-Nürnberg</em>, working on how large models
+              can learn new tasks without forgetting old ones. MSc from Koç University;
+              previously Hepsiburada, Badael and Baykar.
+            </p>
+          </div>
+          <ul class="hero-tags mono" aria-label="Focus areas">
+            <li>Selective fine-tuning</li>
+            <li>Model merging</li>
+            <li>Federated learning</li>
+          </ul>
+          <a class="btn mono" href="#research">Read the research <span aria-hidden="true">→</span></a>
+        </div>
       </div>
-    </header>
-
-    <section id="about">
-      <p>
-        I'm an AI researcher. I hold an MSc in Computer Science and Engineering from
-        <a href="https://www.ku.edu.tr">Koç University</a>, where I did my research in
-        <a href="https://gglab-ku.github.io">GGLab</a> with
-        <a href="https://scholar.google.com/citations?user=KdpjpPkAAAAJ&amp;hl=en">Prof. Gözde Gül Şahin</a>.
-        My work is about adapting large language and vision-language models efficiently:
-        selective and parameter-efficient fine-tuning, model merging, and
-        privacy-preserving training of LLMs with federated learning.
-        Prior to my MSc, I earned a BSc in Electrical Engineering from Istanbul Technical University.
-      </p>
-      <p>
-        I also bring industry experience: three years as a machine learning engineer at Hepsiburada, building
-        segmentation, churn, lifetime-value and recommendation models for an e-commerce platform
-        with over 70 million customers. I later worked as a senior AI consultant for the
-        Data &amp; AI team at Badael in Riyadh. Earlier, at Baykar's Computer Vision R&amp;D department,
-        I developed real-time object detection and visual tracking models for autonomous UAV platforms.
-      </p>
     </section>
 
-    <section id="interests">
-      <h2>Research interests</h2>
-      <ul class="interests">
-        <li>Multimodal learning</li>
-        <li>Vision-language models</li>
-        <li>Vision-language-action models</li>
-        <li>Large language models</li>
-        <li>Selective parameter fine-tuning</li>
-        <li>Continual learning</li>
-        <li>Federated learning</li>
+    <section class="section" id="now">
+      <div class="wrap">
+        <p class="eyebrow mono">§ 00 / Now</p>
+        <h2 class="display">Teaching big models new skills <em>without forgetting</em> the old ones.</h2>
+        <p class="meta mono">Erlangen · Istanbul · 2026</p>
+
+        <div class="now-grid">
+          <div class="prose">
+            <p>
+              I'm an AI researcher. I hold an MSc in Computer Science and Engineering from
+              <a href="https://www.ku.edu.tr">Koç University</a>, where I did my research in
+              <a href="https://gglab-ku.github.io">GGLab</a> with
+              <a href="https://scholar.google.com/citations?user=KdpjpPkAAAAJ&amp;hl=en">Prof. Gözde Gül Şahin</a>.
+              My work is about adapting large language and vision-language models efficiently:
+              selective and parameter-efficient fine-tuning, model merging, and
+              privacy-preserving training of LLMs with federated learning.
+              Prior to my MSc, I earned a BSc in Electrical Engineering from Istanbul Technical University.
+            </p>
+            <p>
+              I also bring industry experience: three years as a machine learning engineer at Hepsiburada, building
+              segmentation, churn, lifetime-value and recommendation models for an e-commerce platform
+              with over 70 million customers. I later worked as a senior AI consultant for the
+              Data &amp; AI team at Badael in Riyadh. Earlier, at Baykar's Computer Vision R&amp;D department,
+              I developed real-time object detection and visual tracking models for autonomous UAV platforms.
+            </p>
+          </div>
+
+          <div class="side">
+            <p class="label mono">— Interests</p>
+            <ul class="list list-mono">
+              <li>Multimodal learning</li>
+              <li>Vision-language models</li>
+              <li>Vision-language-action models</li>
+              <li>Large language models</li>
+              <li>Selective parameter fine-tuning</li>
+              <li>Continual learning</li>
+              <li>Federated learning</li>
+            </ul>
+          </div>
+
+          <div class="side">
+            <img class="portrait" src="assets/profile.jpg" alt="Photo of Hulki Çıray" width="132" height="132">
+            <p class="label mono">— Currently</p>
+            <ul class="list">
+              <li>Visiting researcher, ILS Lab, FAU</li>
+              <li>Extending SWIFT for ICML 2027</li>
+              <li>Lead TA, Modern NLP</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="research">
+      <div class="wrap">
+        <p class="eyebrow mono">§ 01 / Research</p>
+        <h2 class="title">Selected work</h2>
+
+        <article class="work">
+          <div class="work-meta mono">
+            <span>2026 · MSc thesis</span>
+            <span class="accent">In preparation · ICML 2027</span>
+          </div>
+          <div>
+            <h3>SWIFT: Selective Weight Identification and Fine Tuning</h3>
+            <p class="authors"><strong>Hulki Çıray</strong>, Gözde Gül Şahin</p>
+            <p>
+              A selective parameter-efficient fine-tuning framework that identifies and updates
+              only the weights that matter for a new task, which reduces catastrophic forgetting and
+              cuts training compute. An extension adds a merging mechanism that prevents parameter
+              interference when combining tasks.
+            </p>
+            <p class="links-row mono">
+              <a href="https://drive.google.com/file/d/1eCsL228JDnOumbJRz-Kb_9SxZkqJgLmT/view?usp=sharing">Thesis (PDF) ↗</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="work">
+          <div class="work-meta mono">
+            <span>Technical report</span>
+            <span>KUIS AI Center</span>
+          </div>
+          <div>
+            <h3>A Comparative Analysis of U&#8209;Net Variants for Image Segmentation</h3>
+            <p class="authors"><strong>Hulki Çıray</strong></p>
+            <p>
+              U-Net implemented from scratch, with architectural modifications and a systematic
+              comparison of their accuracy and efficiency trade-offs.
+            </p>
+            <p class="links-row mono">
+              <a href="https://drive.google.com/file/d/1GXyCT_ThNRP8kF7E7D5naSqUmGQqPN9A/view">Technical Report ↗</a>
+              <a href="https://github.com/hulkiciray/COMP548-HW3">Code ↗</a>
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="wrap">
+        <p class="eyebrow mono">§ 02 / Experience</p>
+        <h2 class="title">Where I've worked</h2>
+
+        <p class="group-label mono">— Research</p>
+        <ol class="rows">
+          <li>
+            <span class="when mono">Sep 2026 – now</span>
+            <div><strong>Visiting Researcher</strong><span class="org">ILS Lab, FAU Erlangen-Nürnberg</span></div>
+            <span class="place mono">Erlangen</span>
+          </li>
+          <li>
+            <span class="when mono">Feb 2025 – Aug 2026</span>
+            <div><strong>Graduate Research Assistant</strong><span class="org">TÜBİTAK project, Koç University</span></div>
+            <span class="place mono">Istanbul</span>
+          </li>
+          <li>
+            <span class="when mono">Oct 2023 – Aug 2026</span>
+            <div><strong>Graduate Research Fellow</strong><span class="org">KUIS AI Center</span></div>
+            <span class="place mono">Istanbul</span>
+          </li>
+          <li>
+            <span class="when mono">Aug – Sep 2021</span>
+            <div><strong>AI Researcher</strong><span class="org">Baykar, Computer Vision R&amp;D</span></div>
+            <span class="place mono">Istanbul</span>
+          </li>
+        </ol>
+
+        <p class="group-label mono">— Industry</p>
+        <ol class="rows">
+          <li>
+            <span class="when mono">May – Dec 2025</span>
+            <div><strong>Senior AI Consultant</strong><span class="org">Badael, Data &amp; AI Team</span></div>
+            <span class="place mono">Riyadh</span>
+          </li>
+          <li>
+            <span class="when mono">Nov 2021 – Jan 2025</span>
+            <div><strong>Machine Learning Engineer</strong><span class="org">Hepsiburada R&amp;D</span></div>
+            <span class="place mono">Istanbul</span>
+          </li>
+        </ol>
+
+        <p class="group-label mono">— Teaching</p>
+        <ol class="rows">
+          <li>
+            <span class="when mono">Jan – Jun 2026</span>
+            <div><strong>Lead Teaching Assistant</strong><span class="org">Modern NLP, FAU Erlangen-Nürnberg</span></div>
+            <span class="place mono">Erlangen</span>
+          </li>
+          <li>
+            <span class="when mono">Jan – Jun 2026</span>
+            <div><strong>Teaching Assistant</strong><span class="org">COMP 125 Introduction to Programming with Python, Koç University</span></div>
+            <span class="place mono">Istanbul</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="wrap">
+        <p class="eyebrow mono">§ 03 / Projects</p>
+        <h2 class="title">Things I've built</h2>
+
+        <ol class="projects">
+          <li>
+            <a href="https://github.com/hulkiciray/llm_from_scratch">
+              <span class="num mono">P.01</span>
+              <span class="project-body">
+                <span class="project-title">LLMs from scratch</span>
+                <span class="project-desc">A tutorial repository that builds a GPT-style language model step by step in PyTorch: data pipeline, attention, pretraining and fine-tuning, with explanations alongside the code.</span>
+              </span>
+              <span class="tags mono">PyTorch · Transformers · Tutorial</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/hulkiciray/Pretrained-Models-for-Multilingual-Federated-Learning">
+              <span class="num mono">P.02</span>
+              <span class="project-body">
+                <span class="project-title">Multilingual federated learning</span>
+                <span class="project-desc">A reimplementation of <em>Pretrained Models for Multilingual Federated Learning</em>, comparing centralized training with federated training on IID and non-IID language splits.</span>
+              </span>
+              <span class="tags mono">Federated learning · Flower · Multilingual NLP</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/hulkiciray/COMP548-HW3">
+              <span class="num mono">P.03</span>
+              <span class="project-body">
+                <span class="project-title">Image segmentation with U&#8209;Net</span>
+                <span class="project-desc">U-Net implemented from scratch, with architectural modifications and a technical report on the results.</span>
+              </span>
+              <span class="tags mono">Computer vision · PyTorch</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="wrap">
+        <p class="eyebrow mono">§ 04 / Education</p>
+        <h2 class="title">Education</h2>
+
+        <ol class="rows">
+          <li>
+            <span class="when mono">2023 – 2026</span>
+            <div>
+              <strong>MSc, Computer Science and Engineering</strong><span class="org">Koç University</span>
+              <span class="sub">GPA 3.29 / 4.00</span>
+              <span class="sub">Thesis: SWIFT: Selective Weight Identification and Fine Tuning</span>
+              <span class="sub">Advisor: <a href="https://scholar.google.com/citations?user=KdpjpPkAAAAJ&amp;hl=en">Prof. Gözde Gül Şahin</a></span>
+            </div>
+            <span class="place mono">Istanbul</span>
+          </li>
+          <li>
+            <span class="when mono">2016 – 2021</span>
+            <div>
+              <strong>BSc, Electrical Engineering</strong><span class="org">Istanbul Technical University</span>
+              <span class="sub">GPA 3.02 / 4.00</span>
+              <span class="sub">Graduation project: object detection with deep learning for autonomous cars</span>
+              <span class="sub">Advisor: <a href="https://scholar.google.com/citations?user=GR2VnR4AAAAJ&amp;hl=tr">Prof. Tahir Çetin Akıncı</a></span>
+            </div>
+            <span class="place mono">Istanbul</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="index-section" aria-label="Documents and profiles">
+      <ul class="index">
+        <li>
+          <a href="assets/Hulki_Ciray_CV.pdf">
+            <span class="mono">05 — CV</span>
+            <span class="big">Curriculum Vitae</span>
+            <span class="mono detail">PDF · Nov 2026 <span class="arrow" aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1eCsL228JDnOumbJRz-Kb_9SxZkqJgLmT/view?usp=sharing">
+            <span class="mono">06 — Thesis</span>
+            <span class="big">Read SWIFT</span>
+            <span class="mono detail">MSc thesis · PDF <span class="arrow" aria-hidden="true">→</span></span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:huciray23@ku.edu.tr">
+            <span class="mono">07 — Contact</span>
+            <span class="big">Get in touch</span>
+            <span class="mono detail">huciray23@ku.edu.tr <span class="arrow" aria-hidden="true">→</span></span>
+          </a>
+        </li>
       </ul>
     </section>
-
-    <section id="research">
-      <h2>Research</h2>
-      <article class="feature">
-        <p class="kicker">MSc thesis · 2026</p>
-        <h3>SWIFT: Selective Weight Identification and Fine Tuning</h3>
-        <p>
-          A selective parameter-efficient fine-tuning framework that identifies and updates
-          only the weights that matter for a new task, which reduces catastrophic forgetting and
-          cuts training compute. An extension adds a merging mechanism that prevents parameter
-          interference when combining tasks.
-        </p>
-        <p class="actions">
-          <a href="https://drive.google.com/file/d/1eCsL228JDnOumbJRz-Kb_9SxZkqJgLmT/view?usp=sharing">Thesis (PDF)</a>
-        </p>
-      </article>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul class="entries">
-        <li>
-          <h3><a href="https://github.com/hulkiciray/llm_from_scratch">LLMs from scratch</a></h3>
-          <p>A tutorial repository that builds a GPT-style language model step by step in PyTorch: data pipeline, attention, pretraining and fine-tuning, with explanations alongside the code.</p>
-          <p class="tags">PyTorch · Transformers · Tutorial</p>
-        </li>
-        <li>
-          <h3><a href="https://github.com/hulkiciray/Pretrained-Models-for-Multilingual-Federated-Learning">Multilingual federated learning</a></h3>
-          <p>A reimplementation of <em>Pretrained Models for Multilingual Federated Learning</em>, comparing centralized training with federated training on IID and non-IID language splits.</p>
-          <p class="tags">Federated learning · Flower · Multilingual NLP</p>
-        </li>
-        <li>
-          <h3><a href="https://github.com/hulkiciray/COMP548-HW3">Image segmentation with U-Net</a></h3>
-          <p>U-Net implemented from scratch, with architectural modifications and a technical report on the results.</p>
-          <p class="tags">Computer vision · PyTorch</p>
-          <p class="actions"><a href="https://drive.google.com/file/d/1GXyCT_ThNRP8kF7E7D5naSqUmGQqPN9A/view">Technical Report</a></p>
-        </li>
-      </ul>
-    </section>
-
-    <section id="research-experience">
-      <h2>Research experience</h2>
-      <ol class="timeline">
-        <li>
-          <span class="when">2026 – now</span>
-          <div><strong>Visiting Researcher</strong>, ILS Lab, FAU Erlangen-Nürnberg
-            <span class="where">Erlangen</span></div>
-        </li>
-        <li>
-          <span class="when">2025 – 2026</span>
-          <div><strong>Graduate Research Assistant</strong>, TÜBİTAK project at Koç University
-            <span class="where">Istanbul</span></div>
-        </li>
-        <li>
-          <span class="when">2023 – 2026</span>
-          <div><strong>Graduate Research Fellow</strong>, KUIS AI Center
-            <span class="where">Istanbul</span></div>
-        </li>
-        <li>
-          <span class="when">2021</span>
-          <div><strong>AI Researcher</strong>, Baykar, Computer Vision R&amp;D
-            <span class="where">Istanbul</span></div>
-        </li>
-      </ol>
-    </section>
-
-    <section id="industry-experience">
-      <h2>Industry experience</h2>
-      <ol class="timeline">
-        <li>
-          <span class="when">2025</span>
-          <div><strong>Senior AI Consultant</strong>, Badael, Data &amp; AI Team
-            <span class="where">Riyadh</span></div>
-        </li>
-        <li>
-          <span class="when">2021 – 2025</span>
-          <div><strong>Machine Learning Engineer</strong>, Hepsiburada R&amp;D
-            <span class="where">Istanbul</span></div>
-        </li>
-      </ol>
-    </section>
-
-    <section id="teaching">
-      <h2>Teaching</h2>
-      <ol class="timeline">
-        <li>
-          <span class="when">2026</span>
-          <div><strong>Lead Teaching Assistant</strong>, Modern NLP, FAU Erlangen-Nürnberg
-            <span class="where">Erlangen</span></div>
-        </li>
-        <li>
-          <span class="when">2026</span>
-          <div><strong>Teaching Assistant</strong>, COMP 125 Introduction to Programming with Python, Koç University
-            <span class="where">Istanbul</span></div>
-        </li>
-      </ol>
-    </section>
-
-    <section id="education">
-      <h2>Education</h2>
-      <ol class="timeline">
-        <li>
-          <span class="when">2023 – 2026</span>
-          <div><strong>MSc, Computer Science and Engineering</strong>, Koç University
-            <span class="where">GPA: 3.29 / 4.00</span>
-            <span class="where">Thesis: SWIFT: Selective Weight Identification and Fine Tuning</span>
-            <span class="where">Advisor: <a href="https://scholar.google.com/citations?user=KdpjpPkAAAAJ&amp;hl=en">Prof. Gözde Gül Şahin</a></span></div>
-        </li>
-        <li>
-          <span class="when">2016 – 2021</span>
-          <div><strong>BSc, Electrical Engineering</strong>, Istanbul Technical University
-            <span class="where">GPA: 3.02 / 4.00</span>
-            <span class="where">Graduation project: object detection with deep learning for autonomous cars</span>
-            <span class="where">Advisor: <a href="https://scholar.google.com/citations?user=GR2VnR4AAAAJ&amp;hl=tr">Prof. Tahir Çetin Akıncı</a></span></div>
-        </li>
-      </ol>
-    </section>
-
-    <footer>
-      <p>© 2026 Hulki Çıray · Last updated November 2026</p>
-    </footer>
 
   </main>
+
+  <footer class="footer">
+    <div class="wrap foot-grid mono">
+      <div>
+        <p class="foot-head">Hulki Çıray</p>
+        <p>AI Researcher</p>
+        <p>FAU Erlangen-Nürnberg</p>
+        <p>Erlangen · Istanbul</p>
+      </div>
+      <div>
+        <p class="foot-head">Sections</p>
+        <p><a href="#now">↳ Now</a></p>
+        <p><a href="#research">↳ Research</a></p>
+        <p><a href="#experience">↳ Experience</a></p>
+        <p><a href="#projects">↳ Projects</a></p>
+      </div>
+      <div>
+        <p class="foot-head">Elsewhere</p>
+        <p><a href="mailto:huciray23@ku.edu.tr">↳ Email</a></p>
+        <p><a href="https://github.com/hulkiciray">↳ GitHub</a></p>
+        <p><a href="https://www.linkedin.com/in/hulkiciray/">↳ LinkedIn</a></p>
+        <p><a href="assets/Hulki_Ciray_CV.pdf">↳ CV (PDF)</a></p>
+      </div>
+      <div class="colophon">
+        <p class="foot-head">Colophon</p>
+        <p>Inter Tight · IBM Plex Mono · Instrument Serif</p>
+        <p>Hand-written HTML &amp; CSS</p>
+        <p>© 2026 · Updated Nov 2026</p>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>

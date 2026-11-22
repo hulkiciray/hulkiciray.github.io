@@ -5,13 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Page not found · Hulki Çıray</title>
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="/assets/style.css">
   <script src="/assets/theme.js"></script>
 </head>
 <body>
-  <main>
-    <h1>Page not found</h1>
-    <p style="margin-top:1rem">That page doesn't exist anymore. <a href="/">Go to the homepage</a>.</p>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i></span>
+        <span class="brand-text"><strong>Hulki Çıray</strong><small>AI Researcher</small></span>
+      </a>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode" style="margin-left:auto">💡</button>
+    </div>
+  </header>
+  <main class="wrap notfound">
+    <p class="eyebrow mono">§ 404 / Not found</p>
+    <h1 class="display">This page <em>doesn't exist</em> anymore.</h1>
+    <p><a href="/">Go to the homepage</a></p>
   </main>
 </body>
 </html>
